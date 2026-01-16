@@ -1,0 +1,31 @@
+{
+  "name": "JS Dev Environment",
+
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2,
+        "editor.wordWrap": "on",
+        "files.autoSave": "afterDelay",
+        "files.autoSaveDelay": 1000,
+        "terminal.integrated.defaultProfile.linux": "bash"
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "formulahendry.auto-rename-tag",
+        "formulahendry.auto-close-tag",
+        "bradlc.vscode-tailwindcss"
+      ]
+    }
+  },
+
+  "postCreateCommand": "npm install",
+
+  "forwardPorts": [3000],
+
+  "remoteUser": "node"
+}
