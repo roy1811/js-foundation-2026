@@ -1,2 +1,4 @@
 # js-foundation-2026
-I am starting Web development from scratch i.e Java Script foundation and this is my last decision in career switch
+I am starting Web development from scratch i.e Java Script foundation and this is my last decision in career switch. 
+Day-01 setup environment in codespace of github.
+for run any js file just write (node file-path) hit enter.
